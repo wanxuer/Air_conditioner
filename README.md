@@ -1,8 +1,8 @@
 # 空调维修诊断系统
-基于bert+deepseek的空调维修诊断系统
+基于Bert+Deepseek的空调维修诊断系统
 
 # 项目说明
-* 整个项目是针对已经给的空调数据，利用bert+deepseek最后生成诊断系统。输入故障描述，预测维修内容和预测故障元器件，最后生成维修建议。
+* 整个项目是针对已经给的空调数据，利用Bert+Deepseek最后生成诊断系统。输入故障描述，预测维修内容和预测故障元器件，最后生成维修建议。
 * 准确率最后为维修内容84.74%，故障原因76.10%
 * ![image](https://github.com/user-attachments/assets/11ebb73f-4090-4f3d-8ebe-d728ba5edc76)
 * ![image](https://github.com/user-attachments/assets/5dc5fc08-9346-4621-a7b2-7715bda3b60d)
@@ -10,7 +10,7 @@
 
 # 文件说明
 * 所需要的python库及对应版本在requirements.txt
-* 所需要的空调维修数据在研究生作业数据.csv
+* 所需要的空调维修数据在研究生作业数据.csv(课程老师提供的数据）
 * 首先进行数据预处理对应代码yuchuli.py
 * 接着进行模型训练对应代码train.py，需要bert-base-chinese模型，需要去官网下载，并且更改train.py里的文件路径
 https://huggingface.co/google-bert/bert-base-chinese
