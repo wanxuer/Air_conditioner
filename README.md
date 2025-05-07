@@ -20,7 +20,7 @@ https://huggingface.co/google-bert/bert-base-chinese
 https://platform.deepseek.com/api_keys
 
 # 硬件说明
-代码没有用GPU跑，当时一直说GPU内存不够，用的CPU跑，大概跑了22小时，因为数据很多，如果资源够，可以把代码修改一下换成gpu，这样更快一些
+代码没有用GPU跑，当时一直说GPU内存不够，用的CPU跑，大概跑了22小时，因为数据很多，如果资源够，可以把代码修改一下换成GPU，这样更快一些
 
 # 结果展示
 * 【基于Bert+DeepSeek的空调维修诊断系统-哔哩哔哩】 https://b23.tv/KBeWtf0
