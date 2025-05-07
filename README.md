@@ -4,9 +4,9 @@
 # 项目说明
 * 整个项目是针对已经给的空调数据，利用bert+deepseek最后生成诊断系统。输入故障描述，预测维修内容和预测故障元器件，最后生成维修建议。
 * 准确率最后为维修内容84.74%，故障原因76.10%
-![image](https://github.com/user-attachments/assets/11ebb73f-4090-4f3d-8ebe-d728ba5edc76)
-![image](https://github.com/user-attachments/assets/5dc5fc08-9346-4621-a7b2-7715bda3b60d)
-![image](https://github.com/user-attachments/assets/3b48158f-8f3a-4dca-b887-67b4a2b9b599)
+* ![image](https://github.com/user-attachments/assets/11ebb73f-4090-4f3d-8ebe-d728ba5edc76)
+* ![image](https://github.com/user-attachments/assets/5dc5fc08-9346-4621-a7b2-7715bda3b60d)
+* ![image](https://github.com/user-attachments/assets/3b48158f-8f3a-4dca-b887-67b4a2b9b599)
 
 # 文件说明
 * 所需要的python库及对应版本在requirements.txt
