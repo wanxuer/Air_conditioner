@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 import pickle
 
 # 1. 加载数据
-file_path = r"D:\c\桌面\nlp（4.28）\研究生作业数据.csv"
+file_path = r"改此路径为自己存放的空调数据路径"
 try:
     df = pd.read_csv(file_path, encoding="gbk")  # 先试gbk，失败再试utf-8
 except UnicodeDecodeError:
